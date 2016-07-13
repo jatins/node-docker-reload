@@ -1,0 +1,9 @@
+version: "2"
+services:
+  rpro:
+    build: .
+    command: npm start
+    ports:
+      - "3000:3000"
+    volumes:
+      - /opt/app
